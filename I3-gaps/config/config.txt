@@ -1,0 +1,9 @@
+Pour i3 Config
+
+Pour la configuration i3
+    /home/utilisateur/.config/i3/config
+Pour config polybar
+    /home/utilisateur/.config/polybar/config
+Pour config compton
+    /home/utilisateur/.config/compton.conf
+

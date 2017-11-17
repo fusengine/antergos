@@ -1,0 +1,77 @@
+
+! ===================
+!       urxvt
+! ===================
+
+URxvt*scrollBar:	    false
+URxvt*letterSpace:  	-1.8
+URxvt.internalBorder: 10
+URxvt*font: 		      xft:Menlo for Powerline:regular:size=9
+URxvt*boldFont:		    xft:Menlo for Powerline:bold:size=9
+URxvt*cursorBlink:    true
+URxvt.iso14755:		    false
+URxvt*utf8:			      true
+URxvt.keysym.C-equal:      resize-font:bigger
+URxvt.keysym.C-parenright: resize-font:smaller
+
+! =================
+!       Xft
+! =================
+Xft.dpi:          	50
+Xft.antialias:     	true
+Xft.rgba:			      subpixel
+Xft.hinting:       	true
+Xft.hintstyle:		  hintslight
+! Xft.lcdfilter:	  lcddefault
+
+! Google Material Design
+
+*background 		: #263238
+*foreground 		: #eceff1
+
+! black
+*color0  			: #263238
+*color8  			: #37474f
+! red
+*color1  			: #ff9800
+*color9  			: #ffa74d
+! green
+*color2  			: #8bc34a
+*color10 			: #9ccc65
+! yellow
+*color3  			: #ffc107
+*color11 			: #ffa000
+! blue
+*color4  			: #03a9f4
+*color12 			: #81d4fa
+! magenta
+*color5  			: #e91e63
+*color13 			: #ad1457
+! cyan
+*color6  			: #009688
+*color14 			: #26a69a
+! white
+*color7  			: #cfd8dc
+*color15 			: #eceff1
+
+; -----------------------------------
+;               ROFI                 
+; -----------------------------------
+
+rofi.fullscreen: true
+rofi.color-enabled: true
+rofi.color-window: argb:e8222D32,argb:00292f37,#EBCB8B
+rofi.color-normal: argb:02000000,#D8DEE9,argb:02000000,argb:02000000,#EBCB8B
+rofi.color-active: argb:02000000,#D8DEE9,argb:02000000,argb:02000000,#D8DEE9
+rofi.color-urgent: argb:02000000,#D8DEE9,argb:02000000,argb:02000000,#D8DEE9
+
+rofi.font: System San Francisco Display 14
+rofi.eh: 1
+rofi.line-margin: 20
+rofi.separator-style: solid
+rofi.hide-scrollbar: true
+rofi.lines: 3
+rofi.width: 100
+rofi.padding: 200
+rofi.bw: 0
+rofi.show-icons: true
