@@ -18,3 +18,5 @@
         super-flat-remix-icon-theme
         arc-gtk-theme
         xcursor-osx-elcap 
+
+resolve libc++ => key gpg --recv-key 0FC3042E345AD05D
